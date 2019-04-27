@@ -23,6 +23,8 @@ Open your browser console.
 
 Click on one of the *Open* buttons to open a datepicker: the following error is displayed in the console:
 
+On Chrome:
+
 ```
 ERROR TypeError: Cannot read property 'nativeElement' of undefined
     at ng-bootstrap.js:4162
@@ -35,6 +37,19 @@ ERROR TypeError: Cannot read property 'nativeElement' of undefined
     at executeHooks (core.js:4757)
     at refreshDescendantViews (core.js:11598)
     at renderComponentOrTemplate (core.js:11976)
+```
+
+On Firefox:
+
+```
+ERROR TypeError: "this._monthsEl is undefined"
+    ngAfterContentInit ng-bootstrap.js:4162
+    Angular 3
+    ngAfterContentInit ng-bootstrap.js:4160
+    Angular 8
+    open ng-bootstrap.js:5278
+    toggle ng-bootstrap.js:5310
+    StatsComponent_Template_button_click_6_listener StatsComponent.js:29
 ```
 
 ## Third bug: minDate input causes valueChanges to emit twice even though there is no value change at all
