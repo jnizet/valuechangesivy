@@ -13,7 +13,7 @@ Click on the *User* dropdown menu at the top right: nothing happens (apparently)
 
 Click again twice: the dropdown menu finally appears. 
 
-The problem in fact is that the menu doesn't appear at the right position the first time it's opened, but to the right (and thus hidden). This is obvious if you do the same thing with the *Tasks* dropdown menu.
+The problem in fact is that the menu doesn't appear at the right position the first time it's opened, but to the right (and thus hidden). This is obvious if you do the same thing with the *Resources* dropdown menu.
  
 ## Second bug: datepicker console error
 
